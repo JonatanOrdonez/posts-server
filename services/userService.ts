@@ -3,7 +3,7 @@ export default class UserService {
 
     }
 
-    async SignIn(username: string, password: string) {
+    public SignIn(username: string, password: string): any {
         return {username: username, password: password};
     }
 }
